@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- what if we use 80% instead of device-width ? -->
+    <title>Listen</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container display">
+    <!-- left side box -->
+      <div class="left">
+        <!-- home -->
+        <div class="home bg-gray m1 p1">
+          <div class="logo">
+            <img src="/utilitites/new.svg" alt="logo" />
+          </div>
+          <div class="close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+          <ul>
+            <li><i id="ic1" class="fa-solid fa-house"></i> Home</li>
+            <li><i id="ic2" class="fa-solid fa-magnifying-glass"></i> Search</li>
+          </ul>
+        </div>
+        <!-- collection -->
+        <div class="collection bg-gray m1 p1 pos">
+          <div class="collect display align space">
+            <i class="fa-solid fa-music"></i><h3>Your collection </h3><i id="more" class="fa-solid fa-plus" style="cursor: pointer;"></i>
+          </div>
+            <div class="songlists">
+              <ul>
+                
+              </ul>
+            </div>
+            <div class="footer">
+              <div class="info">
+                <a href="/utilitites/rules.docx">Legal</a>
+              </div>
+              <div class="info2">
+                <a href="">Contact us</a>
+              </div>
+              <div class="info3">
+                <a href="">Privacy Policy</a>
+              </div>
+              <div class="info4">
+                <a href="">Cookies</a>
+              </div>
+            </div>
+            <div class="lang">
+              <img src="/utilitites/Globe.svg" alt="globe">
+            </div>
+        </div>
+      </div>
+      <!-- right side box -->
+      <div class="right bg-gray m1">
+        <h2 class="size p1">Your playlists</h2>
+        <div class="menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <br>
+        <br>
+        <div class="header space color1 height1 display align bg-round">
+          <div class="move">
+            <i class="fa-solid fa-angle-left" style="cursor: pointer;"></i>   <i class="fa-solid fa-angle-right" style="cursor: pointer;" ></i>
+          </div>
+          <div class="signins">
+            <button class="signup color1">Sign Up</button> 
+            <button class="login">Log in</button>
+          </div>
+        </div>
+
+        <!-- cards on main screen -->
+        <div class="cards p1 display play">
+          <div class="card">
+            <img src="/utilitites/ajsingh.jpg" alt="image">
+            <h2>Arijit Singh</h2>
+            <p>Listen to the top hits of Arijit Singh !</p>
+            <img src="/utilitites/play-button.svg" class="play" alt="play">
+          </div>
+          <div class="card bg-gray">
+            <img src="/utilitites/ajsingh.jpg" alt="image">
+            <h2>Arijit Singh</h2>
+            <p>Listen to the top hits of Arijit Singh !</p>
+            <img src="/utilitites/play-button.svg" class="play" alt="play">
+          </div>
+          <div class="card bg-gray">
+            <img src="/utilitites/ajsingh.jpg" alt="image">
+            <h2>Arijit Singh</h2>
+            <p>Listen to the top hits of Arijit Singh !</p>
+            <img src="/utilitites/play-button.svg" class="play" alt="play">
+          </div>
+        </div>
+        <div class="playbar">
+          <div class="songName display space">
+            <div class="playbtns display justify align">
+              <i id="prev" class="fa-solid fa-backward-step size"></i><i id="play" class="fa-solid fa-play size"><i class="fa-solid fa-pause size"></i></i> <i id="next" class="fa-solid fa-forward-step size"></i>
+            </div>
+            <div class="name1"></div>
+            <div class="duration">
+            </div>
+              <div class="volu">
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" name="volume">
+              </div>
+          </div>
+          <div class="seekbar pointer"></div>
+          <div class="circle pointer"></div>
+        </div>
+        
+        
+      </div>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>

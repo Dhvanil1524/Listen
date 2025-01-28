@@ -1,0 +1,107 @@
+.border2{
+    border: 2px solid white;
+}
+
+.border{
+    border: 2px solid white;
+    
+}
+.display{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.align{
+    align-items: center;
+}
+
+.bg-gray{
+    background-color: rgba(21, 21, 21, 0.71);
+    border-radius: 4px;
+}
+
+.bg-round{
+    background-color: rgba(25, 25, 25);
+    border-radius: 4px;
+}
+.size{
+    font-size: 20px;
+    font-weight: 620;
+}
+
+.pos{
+    position: relative;
+    top: 0.4vw;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.p1{
+    padding: 10px;
+}
+
+.m1{
+    margin: 0px;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+.round{
+    border-radius: 50%;
+}
+
+.height1{
+    height: 3.2rem;
+}
+
+.color1{
+    background-color: rgb(0, 0, 0);
+}
+
+/* For Webkit browsers (Chrome, Safari, newer Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Scrollbar width */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Dark track background */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Dark scrollbar thumb */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter thumb color on hover */
+  }
+  
+  /* For Firefox */
+  scrollbar {
+    width: 12px; /* Scrollbar width */
+  }
+  
+  scrollbar-track {
+    background: #2e2e2e; /* Dark track background */
+  }
+  
+  scrollbar-thumb {
+    background: #555; /* Dark scrollbar thumb */
+    border-radius: 10px;
+  }
+  
+  scrollbar-thumb:hover {
+    background: #888; /* Lighter thumb color on hover */
+  }
+  
