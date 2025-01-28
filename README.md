@@ -7,6 +7,7 @@ Welcome to Listen, the music player that lets you play songs stored locally on y
 Designed and developed the front-end of the app using HTML and CSS to ensure it's both aesthetically pleasing and responsive. Your music experience is as smooth as the interface! 🎨✨
 
 *JavaScript*
+
 Implemented interactive features like the play/pause button, volume control, and song navigation using pure JavaScript—no need for backend frameworks like Node.js or Express.js! 🎬💻
 
 # 🚀 How to Use
