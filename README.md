@@ -2,11 +2,11 @@
 Welcome to Listen, the music player that lets you play songs stored locally on your device! No internet connection needed, just your favorite tracks and the app.
 
 # 🖥️ Technologies Used
-*HTML5 & CSS3*
+# *HTML5 & CSS3*
 
 Designed and developed the front-end of the app using HTML and CSS to ensure it's both aesthetically pleasing and responsive. Your music experience is as smooth as the interface! 🎨✨
 
-*JavaScript*
+# *JavaScript*
 
 Implemented interactive features like the play/pause button, volume control, and song navigation using pure JavaScript—no need for backend frameworks like Node.js or Express.js! 🎬💻
 
